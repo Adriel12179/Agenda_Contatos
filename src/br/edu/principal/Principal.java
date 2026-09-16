@@ -27,7 +27,7 @@ public class Principal {
                 case 3-> agenda.pesquisar(sc, nomes, celulares, emails);
                 case 4-> agenda.atualizar(sc, nomes, celulares, emails);           	
                 case 5-> agenda.excluir(sc, nomes, celulares, emails);          	
-                case 6-> uteis.sair(continuar);
+                case 6-> uteis.sair();
                 default -> System.out.println("Opção inválida!");
             }
         }

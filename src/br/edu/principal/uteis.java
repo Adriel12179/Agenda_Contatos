@@ -6,7 +6,7 @@ public class uteis {
 	  public static void mostraInicializacao() {
 	    	System.out.println("==========================");
 	        System.out.println("     AGENDA DE CONTATOS    ");
-	        System.out.println("          v1.0.0           ");
+	        System.out.println("          v1.1.1           ");
 	        System.out.println("==========================");
 	        System.out.println("Bem-vindo!");
 	    }
@@ -27,8 +27,8 @@ public class uteis {
 	        sc.nextLine();
 	        return opc;
 	    }
-	    public static void sair(boolean continuar) {
+	    public static boolean sair() {
 	    	System.out.println("Saindo da Agenda de Contatos...");
-	        continuar = false;
+	        return false;
 	    }
 }
